@@ -214,7 +214,7 @@ export default class Quiz extends React.Component {
                 <div>_____________________</div>
                 <div>{this.state.prevResult}</div>
                 <div>_____________________</div>
-                <div>Статистика ответов: + {this.state.counterRight} / - {this.state.counterWrong}</div>
+                <div>Статистика ответов + {this.state.counterRight} / - {this.state.counterWrong}</div>
                 <div>в базе {questions.length} слов</div>
                 <div>{this.state.lastLog}</div>
                 <div>{this.state.q1c.length}</div>
